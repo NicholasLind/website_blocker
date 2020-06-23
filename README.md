@@ -28,7 +28,7 @@ Important note: `Block-Website` clears your Chrome browser's cache to trigger th
    - `Block-Website -url www.reddit.com`
    - `Block-Website -url https://reddit.com`
 3. Does your `C:\Windows\System32\drivers\etc\hosts` file look something like this?
-   - ![example of a hosts file](example.jpg)
+   - ![example of a hosts file](images/example.jpg)
 
 
 
