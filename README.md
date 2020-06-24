@@ -17,7 +17,7 @@ Important note: `Block-Website` clears your Chrome browser's cache to trigger th
     1. Press the "Windows key"
     2. Type "Powershell"
     3. Right-click the app and click "Run as administrator"
- 2. Import the functions into your Powershell using `Import-Module <your file path here>\website_blocker.ps1`
+ 2. Import the functions into your Powershell using `Import-Module <your file path here>\website_blocker.ps1` (or just copy and paste the entire script into your Powershell window.)
  3. Type `Block-Website -url <website you'd like to block>` to block a website, close chrome, and clear your cache (example: `Block-Website -url reddit.com`). You can use the up-arrow to quickly block multiple websites.
  4. Type `Unblock-Website -url <website you'd like to unblock>` to resume access to a given website.
 
@@ -35,4 +35,4 @@ Important note: `Block-Website` clears your Chrome browser's cache to trigger th
 ## Potential Improvements
 - Auto-clear Firefox's cache
 - Suggest additional URLs to block based on browsing history (youtube.com -> m.youtube.com)
-- Hide the boolean returns from CloseMainWindow()
+- Hide the boolean returns from CloseMainWindow() when chrome is open
